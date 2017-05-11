@@ -17,7 +17,7 @@ development:
   s3_bucket_name: cine-equipment-images
 
   # AWS S3 region
-  s3_region: s3-eu-west-1
+  s3_region: eu-west-1
 
   # Cache-Control: max-age time in seconds for assets uploaded to S3.
   # Default is one day. Normally, you can use the default. Links to images have
@@ -48,7 +48,7 @@ production:
   s3_bucket_name: cine-equipment-images
 
   # AWS S3 region
-  s3_region: s3-eu-west-1
+  s3_region: eu-west-1
 
   # Cache-Control: max-age time in seconds for assets uploaded to S3.
   # Default is one day. Normally, you can use the default. Links to images have
@@ -61,5 +61,7 @@ production:
   # AWS keys
   # aws_access_key_id: <%= ENV['AWS_ACCESS_KEY_ID'] %>
   # aws_secret_access_key: <%= ENV['AWS_SECRET_ACCESS_KEY'] %>
+  aws_access_key_id: AKIAIW4NVYCKKREWPEUQ
+  aws_secret_access_key: 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
 
   google_maps_key: AIzaSyDmIHAmuDWg2pc_WlE7sfoEnV0uVXVQvfQ
