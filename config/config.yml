@@ -9,7 +9,7 @@
 #
 
 development:
-  domain: <%= ENV['DOMAIN'] %>
+  # domain: <%= ENV['DOMAIN'] %>
 
   secret_key_base: "af3e03847621a11be1667fe5a114ffb9a200418782dff5e28b5ac11bf9d97b648c6b6744725b13e3da8fcf632226bd89aeec122caa72ab1dc3bcef05b4a7b97a"
 
@@ -40,7 +40,7 @@ staging:
   # Add local `staging` environment configuration overrides here
 
 production:
-  domain: <%= ENV['DOMAIN'] %>
+  domain: "staging.cine.equipment"
 
   secret_key_base: "af3e03847621a11be1667fe5a114ffb9a200418782dff5e28b5ac11bf9d97b648c6b6744725b13e3da8fcf632226bd89aeec122caa72ab1dc3bcef05b4a7b97a"
 
