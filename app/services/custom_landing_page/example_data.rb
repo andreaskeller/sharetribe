@@ -6,8 +6,8 @@ module CustomLandingPage
     DATA_STR = <<JSON
 {
   "settings": {
-    "marketplace_id": 9999,
-    "locale": "en",
+    "marketplace_id": 2,
+    "locale": "de",
     "sitename": "example"
   },
 
@@ -298,7 +298,7 @@ module CustomLandingPage
   ],
 
   "assets": [
-    { "id": "default_hero_background", "src": "default_hero_background.jpg", "content_type": "image/jpeg" }
+    { "id": "default_hero_background", "src": "hero_background.jpg", "content_type": "image/jpeg" }
   ]
 }
 JSON

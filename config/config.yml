@@ -9,12 +9,12 @@
 #
 
 development:
-  # domain: <%= ENV['DOMAIN'] %>
+  domain: "lvh.me:3000"
 
   secret_key_base: "af3e03847621a11be1667fe5a114ffb9a200418782dff5e28b5ac11bf9d97b648c6b6744725b13e3da8fcf632226bd89aeec122caa72ab1dc3bcef05b4a7b97a"
 
   # Default bucket
-  s3_bucket_name: cine-equipment-images
+  s3_bucket_name: dev-cine-equipment-images
 
   # AWS S3 region
   s3_region: eu-west-1
@@ -25,13 +25,15 @@ development:
   s3_cache_max_age: 86400
 
   # Bucket for files users upload directly to S3. You can add an expiration policy to these files.
-  s3_upload_bucket_name: cine-equipment-images-tmp
+  s3_upload_bucket_name: dev-cine-equipment-images-tmp
 
   # AWS keys
   # aws_access_key_id: <%= ENV['AWS_ACCESS_KEY_ID'] %>
   # aws_secret_access_key: <%= ENV['AWS_SECRET_ACCESS_KEY'] %>
 
   google_maps_key: AIzaSyDmIHAmuDWg2pc_WlE7sfoEnV0uVXVQvfQ
+
+  clp_static_enabled: true
 
 test:
   # Add local `test` environment configuration overrides here
@@ -65,3 +67,5 @@ production:
   aws_secret_access_key: yLnTsOq1XvQLNEYhVTE/4lPOjXD5HuCODbfrFxSw
 
   google_maps_key: AIzaSyDmIHAmuDWg2pc_WlE7sfoEnV0uVXVQvfQ
+
+  clp_static_enabled: true
